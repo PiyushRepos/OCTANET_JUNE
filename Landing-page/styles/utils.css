@@ -16,6 +16,16 @@ p {
   line-height: calc(1em + 0.5rem);
 }
 
+::-webkit-scrollbar {
+  appearance: none;
+  width: 5px;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--clr-pink);
+}
+
 .container {
   max-width: 1536px;
   margin-left: auto;
